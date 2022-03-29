@@ -15,11 +15,11 @@ D:/Unity Projects/Test URP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64848
+51446
 Successfully changed project path to: D:/Unity Projects/Test URP
 D:/Unity Projects/Test URP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Unity Editors/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -30,94 +30,94 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   30.0.14.7141
+    Driver:   30.0.15.1179
 Initialize mono
 Mono path[0] = 'D:/Unity Editors/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Editors/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity Editors/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Editors/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001192 seconds.
+Registered in 0.001300 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.577 seconds
+- Completed reload, in  0.662 seconds
 Domain Reload Profiling:
-	ReloadAssembly (577ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (662ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004935 seconds.
+Registered in 0.005670 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
+- Completed reload, in  1.295 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1161ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (180ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (957ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (337ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.3 MB.
-System memory in use after: 147.5 MB.
+Unloading 3343 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 149.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3775.
-Total: 3.230900 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.177600 ms MarkObjects: 2.731100 ms  DeleteObjects: 0.064700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3778.
+Total: 4.306000 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.211400 ms MarkObjects: 3.710100 ms  DeleteObjects: 0.091800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,169 +131,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3bac30e0c3da08768836858914317') in 0.332753 seconds 
-  Import took 0.417168 seconds .
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a40aa0f86ad7ffe262996d5b91dd5a7') in 0.083735 seconds 
+  Import took 0.088494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 926.753460 seconds.
+  Time since last request: 137.959592 seconds.
+  path: Assets/Shaders&VFX/Fire/Fire vfx.vfx
+  artifactKey: Guid(e361e47deae851f4db44d8b661fd4f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders&VFX/Fire/Fire vfx.vfx using Guid(e361e47deae851f4db44d8b661fd4f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a8644825b7ad7947716bcf9908121c') in 0.030515 seconds 
+  Import took 0.035313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.312553 seconds.
   path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
   artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9e697e253ca74542f9c2904e1c449b') in 0.005679 seconds 
-  Import took 0.123794 seconds .
+Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df263fac6cf5348c4afcc16ba5052161') in 0.006615 seconds 
+  Import took 0.012568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1888.316223 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48cf13164e3fa3b06cb912aa278f7f9') in 0.008604 seconds 
-  Import took 0.079732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.461985 seconds.
-  path: Assets/Shaders&VFX/Fire2
-  artifactKey: Guid(abe14f00b26bb914ab97954b32be5c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2 using Guid(abe14f00b26bb914ab97954b32be5c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bad639386a23e388454df7ce99f9b3e') in 0.001875 seconds 
-  Import took 0.133098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.437991 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 shader.shadergraph
-  artifactKey: Guid(04a972c9a8b2d35489b8652a754679e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 shader.shadergraph using Guid(04a972c9a8b2d35489b8652a754679e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9c9f4edd40ff83ec0930993921f489') in 0.007041 seconds 
-  Import took 0.033424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.136207 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 shader.shadergraph
-  artifactKey: Guid(04a972c9a8b2d35489b8652a754679e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 shader.shadergraph using Guid(04a972c9a8b2d35489b8652a754679e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a9c658a7504e0b14844a220d149895') in 0.006949 seconds 
-  Import took 0.069272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.903861 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 shader.shadergraph
-  artifactKey: Guid(04a972c9a8b2d35489b8652a754679e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 shader.shadergraph using Guid(04a972c9a8b2d35489b8652a754679e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515c5936087a5bb4f0903b440e8daa0f') in 0.009994 seconds 
-  Import took 0.045091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.943642 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcc6a1b6a7488fb40b3d716cfa47268') in 0.005729 seconds 
-  Import took 0.045886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.583246 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1801a4e03ab5619ba88aefb28ba2da') in 0.003469 seconds 
-  Import took 0.035028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.310835 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed753b46b890e4e96835f3f361cb8f5') in 0.006278 seconds 
-  Import took 0.037673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 392.808597 seconds.
-  path: Assets/Shaders&VFX/Fire2/fire texture.png
-  artifactKey: Guid(ff2fe225f1cbda84aba29cc56b253c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/fire texture.png using Guid(ff2fe225f1cbda84aba29cc56b253c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcb7ae77eb952e54be9681b1954bc5d') in 0.196182 seconds 
-  Import took 0.219113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.383836 seconds.
-  path: Assets/Shaders&VFX/Fire2/fire texture.png
-  artifactKey: Guid(ff2fe225f1cbda84aba29cc56b253c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/fire texture.png using Guid(ff2fe225f1cbda84aba29cc56b253c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54f32af8740b2b76ae1eae9727bc17e') in 0.011146 seconds 
-  Import took 0.082392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.546676 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9912c8279958c8494dca1ec6b6987f') in 0.003707 seconds 
-  Import took 0.022661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.118333 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb70498394c812ffef1e9c4afc1b11d') in 0.003410 seconds 
-  Import took 0.059801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.563635 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f731adf1d7a761e8524fab211910250') in 0.006361 seconds 
-  Import took 0.022156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.341593 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5e248ff1573f2d557583bc610c10c4') in 0.003178 seconds 
-  Import took 0.034988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 112.625936 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7557034b7a5a3dfc2e32edd881ad9b2') in 0.006014 seconds 
-  Import took 0.043208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.065361 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde373d2ea6ac65516a13f5a3f136891') in 0.008033 seconds 
-  Import took 0.046936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 944.887369 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f514f3dc2e5044f01cbcdec9b6ec5af7') in 0.003712 seconds 
-  Import took 0.059016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.292914 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6853a44d2e383b45be377a67050dc219') in 0.007014 seconds 
-  Import took 0.060727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.935613 seconds.
-  path: Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx
-  artifactKey: Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders&VFX/Fire2/Fire 2 vfx.vfx using Guid(5fce75db756437a4b948a84234cdf26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb53e55e86bc6129ede8d3e5c6ab9f0') in 0.003048 seconds 
-  Import took 0.037846 seconds .
+  Time since last request: 25.492074 seconds.
+  path: Assets/Shaders&VFX/Fire/Fire vfx.vfx
+  artifactKey: Guid(e361e47deae851f4db44d8b661fd4f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders&VFX/Fire/Fire vfx.vfx using Guid(e361e47deae851f4db44d8b661fd4f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96831e1c6baab16520719216f9eec477') in 0.005892 seconds 
+  Import took 0.015772 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
