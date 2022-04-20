@@ -70,6 +70,7 @@
     <None Include="Assets\Fantasy Adventure Environment\Shaders\PigmentMapComposite.shader" />
     <None Include="Assets\Fantasy Adventure Environment\Changelog.txt" />
     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Foliage.shader" />
+    <None Include="Assets\Cinematic Look LUT Library\Readme.txt" />
     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_TreeTrunk.shader" />
     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_FogSheet.shader" />
     <None Include="Assets\Fantasy Adventure Environment\Shaders\FAE_Cliff_Coverage.shader" />
